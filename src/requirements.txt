@@ -3,3 +3,4 @@ joblib==1.5.3
 numpy==2.5.1
 pandas==3.0.5
 wandb==0.28.1
+uvicorn[standard]==0.37.0
