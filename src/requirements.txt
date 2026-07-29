@@ -10,3 +10,7 @@ joblib==1.5.3
 wandb==0.28.1
 python-dotenv==1.2.2
 python-multipart==0.0.20
+
+catboost==1.2.10
+lightgbm==4.7.0
+xgboost==3.3.0
