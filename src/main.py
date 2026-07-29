@@ -1,14 +1,29 @@
 from fastapi import FastAPI , UploadFile , HTTPException , File
 from helpers import validate_datafile, Structure_validation
 from config_logger import get_logger 
+from ModelLoader import ModelLoader
+from Predictor import predict
+
 
 
 logger = get_logger()
 app = FastAPI()
 
+
+@app.on_event("startup")
+def startup_event():
+    loader = ModelLoader()
+
+    app.state.model = loader.load_model()
+
+
 @app.get("/")
 async def root():
-    return {"message":"Healthy endpoint"}
+    return {
+        "name": "EEG Seizure Classification API",
+        "status": "online",
+        "docs": "/docs"
+    }
 
 
 
@@ -27,7 +42,8 @@ async def predict_class(
     else :
         inference_type = "batch"
     logger.info(f"the data set is valid , starting the inference job {inference_type}")
+    preds = predict(app.state.model,data)
+
     
     
-    return {"datafile":datafile.filename,
-            "data":data.to_dict()}
+    return {"preds":preds}

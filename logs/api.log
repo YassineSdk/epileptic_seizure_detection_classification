@@ -1,0 +1,87 @@
+2026-07-28 16:40:39 | WARNING  | EEG_API | the model not found , Downloading from W&B .
+2026-07-28 16:44:11 | WARNING  | EEG_API | the model not found , Downloading from W&B .
+2026-07-28 16:44:14 | WARNING  | EEG_API | the model not found , Downloading from W&B .
+2026-07-28 16:49:11 | WARNING  | EEG_API | the model not found , Downloading from W&B .
+2026-07-28 16:55:51 | WARNING  | EEG_API | the model not found , Downloading from W&B .
+2026-07-28 16:55:54 | INFO     | EEG_API | model loaded successfully.
+2026-07-28 16:56:52 | WARNING  | EEG_API | the model not found , Downloading from W&B .
+2026-07-28 16:59:38 | WARNING  | EEG_API | the model not found , Downloading from W&B .
+2026-07-28 17:01:05 | WARNING  | EEG_API | the model not found , Downloading from W&B .
+2026-07-28 17:01:47 | INFO     | EEG_API | using the cached model.
+2026-07-28 17:01:51 | INFO     | EEG_API | model loaded successfully.
+2026-07-28 17:01:59 | WARNING  | EEG_API | the model not found , Downloading from W&B .
+2026-07-28 17:02:04 | INFO     | EEG_API | model loaded successfully.
+2026-07-28 17:08:41 | INFO     | EEG_API | using the cached model.
+2026-07-28 17:08:44 | INFO     | EEG_API | model loaded successfully.
+2026-07-28 18:06:36 | INFO     | EEG_API | using the cached model.
+2026-07-28 18:06:37 | INFO     | EEG_API | model loaded successfully.
+2026-07-28 18:06:47 | INFO     | EEG_API | a prediction request  recieved:
+2026-07-28 18:06:47 | INFO     | EEG_API | the data file is accepted
+2026-07-28 18:06:47 | WARNING  | EEG_API | the data has unnamed_cols that need further processing
+2026-07-28 18:06:47 | INFO     | EEG_API | the data set is valid , starting the inference job batch
+2026-07-28 18:07:05 | INFO     | EEG_API | using the cached model.
+2026-07-28 18:07:07 | INFO     | EEG_API | model loaded successfully.
+2026-07-28 18:07:07 | INFO     | EEG_API | a prediction request  recieved:
+2026-07-28 18:07:07 | INFO     | EEG_API | the data file is accepted
+2026-07-28 18:07:07 | WARNING  | EEG_API | the data has unnamed_cols that need further processing
+2026-07-28 18:07:07 | INFO     | EEG_API | the data set is valid , starting the inference job batch
+2026-07-28 18:07:51 | INFO     | EEG_API | using the cached model.
+2026-07-28 18:07:54 | INFO     | EEG_API | model loaded successfully.
+2026-07-28 18:07:54 | INFO     | EEG_API | a prediction request  recieved:
+2026-07-28 18:07:54 | INFO     | EEG_API | the data file is accepted
+2026-07-28 18:07:54 | WARNING  | EEG_API | the data has unnamed_cols that need further processing
+2026-07-28 18:07:54 | INFO     | EEG_API | the data set is valid , starting the inference job batch
+2026-07-29 12:19:45 | INFO     | EEG_API | using the cached model.
+2026-07-29 12:19:49 | INFO     | EEG_API | model loaded successfully.
+2026-07-29 12:21:00 | INFO     | EEG_API | using the cached model.
+2026-07-29 12:21:00 | INFO     | EEG_API | model loaded successfully.
+2026-07-29 12:22:32 | INFO     | EEG_API | using the cached model.
+2026-07-29 12:22:35 | INFO     | EEG_API | model loaded successfully.
+2026-07-29 12:23:23 | INFO     | EEG_API | a prediction request  recieved:
+2026-07-29 12:23:23 | INFO     | EEG_API | the data file is accepted
+2026-07-29 12:23:23 | WARNING  | EEG_API | the data has unnamed_cols that need further processing
+2026-07-29 12:23:23 | INFO     | EEG_API | the data set is valid , starting the inference job batch
+2026-07-29 12:24:10 | INFO     | EEG_API | using the cached model.
+2026-07-29 12:24:12 | INFO     | EEG_API | model loaded successfully.
+2026-07-29 12:24:15 | INFO     | EEG_API | a prediction request  recieved:
+2026-07-29 12:24:15 | INFO     | EEG_API | the data file is accepted
+2026-07-29 12:24:15 | WARNING  | EEG_API | the data has unnamed_cols that need further processing
+2026-07-29 12:24:15 | INFO     | EEG_API | the data set is valid , starting the inference job batch
+2026-07-29 12:24:26 | INFO     | EEG_API | using the cached model.
+2026-07-29 12:24:28 | INFO     | EEG_API | model loaded successfully.
+2026-07-29 12:24:28 | INFO     | EEG_API | a prediction request  recieved:
+2026-07-29 12:24:28 | INFO     | EEG_API | the data file is accepted
+2026-07-29 12:24:28 | WARNING  | EEG_API | the data has unnamed_cols that need further processing
+2026-07-29 12:24:28 | INFO     | EEG_API | the data set is valid , starting the inference job batch
+2026-07-29 12:24:47 | INFO     | EEG_API | using the cached model.
+2026-07-29 12:24:49 | INFO     | EEG_API | model loaded successfully.
+2026-07-29 12:24:52 | INFO     | EEG_API | a prediction request  recieved:
+2026-07-29 12:24:52 | INFO     | EEG_API | the data file is accepted
+2026-07-29 12:24:52 | WARNING  | EEG_API | the data has unnamed_cols that need further processing
+2026-07-29 12:24:52 | INFO     | EEG_API | the data set is valid , starting the inference job batch
+2026-07-29 12:25:43 | INFO     | EEG_API | using the cached model.
+2026-07-29 12:25:45 | INFO     | EEG_API | model loaded successfully.
+2026-07-29 12:25:51 | INFO     | EEG_API | a prediction request  recieved:
+2026-07-29 12:25:51 | INFO     | EEG_API | the data file is accepted
+2026-07-29 12:25:51 | WARNING  | EEG_API | the data has unnamed_cols that need further processing
+2026-07-29 12:25:51 | INFO     | EEG_API | the data set is valid , starting the inference job batch
+2026-07-29 12:27:59 | INFO     | EEG_API | using the cached model.
+2026-07-29 12:28:01 | INFO     | EEG_API | model loaded successfully.
+2026-07-29 12:28:11 | INFO     | EEG_API | using the cached model.
+2026-07-29 12:28:13 | INFO     | EEG_API | model loaded successfully.
+2026-07-29 12:28:16 | INFO     | EEG_API | a prediction request  recieved:
+2026-07-29 12:28:16 | INFO     | EEG_API | the data file is accepted
+2026-07-29 12:28:16 | WARNING  | EEG_API | the data has unnamed_cols that need further processing
+2026-07-29 12:28:16 | INFO     | EEG_API | the data set is valid , starting the inference job batch
+2026-07-29 12:28:43 | INFO     | EEG_API | using the cached model.
+2026-07-29 12:28:45 | INFO     | EEG_API | model loaded successfully.
+2026-07-29 12:28:48 | INFO     | EEG_API | a prediction request  recieved:
+2026-07-29 12:28:48 | INFO     | EEG_API | the data file is accepted
+2026-07-29 12:28:48 | WARNING  | EEG_API | the data has unnamed_cols that need further processing
+2026-07-29 12:28:48 | INFO     | EEG_API | the data set is valid , starting the inference job batch
+2026-07-29 12:28:56 | INFO     | EEG_API | using the cached model.
+2026-07-29 12:28:58 | INFO     | EEG_API | model loaded successfully.
+2026-07-29 12:28:57 | INFO     | EEG_API | a prediction request  recieved:
+2026-07-29 12:28:57 | INFO     | EEG_API | the data file is accepted
+2026-07-29 12:28:57 | WARNING  | EEG_API | the data has unnamed_cols that need further processing
+2026-07-29 12:28:57 | INFO     | EEG_API | the data set is valid , starting the inference job batch

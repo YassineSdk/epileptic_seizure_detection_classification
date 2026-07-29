@@ -70,12 +70,6 @@ def Structure_validation(file,extention : str) ->pd.DataFrame:
         )
     
     return data 
-
-def load_model_wb():
-
-
-def predict(model)
-
     
     
     
