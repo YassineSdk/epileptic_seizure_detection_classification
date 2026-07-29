@@ -85,3 +85,5 @@
 2026-07-29 12:28:57 | INFO     | EEG_API | the data file is accepted
 2026-07-29 12:28:57 | WARNING  | EEG_API | the data has unnamed_cols that need further processing
 2026-07-29 12:28:57 | INFO     | EEG_API | the data set is valid , starting the inference job batch
+2026-07-29 13:03:40 | INFO     | EEG_API | using the cached model.
+2026-07-29 13:03:44 | INFO     | EEG_API | model loaded successfully.

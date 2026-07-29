@@ -5,8 +5,10 @@ import joblib
 import pandas 
 from pathlib import Path
 from config_logger import get_logger
+from dotenv import load_dotenv, find_dotenv 
+import os
 
-
+load_dotenv()
 logger = get_logger()
 
 
@@ -28,7 +30,7 @@ class ModelLoader:
         self.model_path.parent.mkdir(
             exist_ok=True
         )
-
+        wb.login(key=os.getenv("W&B_KEY"))
         api=wb.Api()
         artifact = api.artifact(
             self.artfact_name,
@@ -46,6 +48,9 @@ class ModelLoader:
         return self.model_path.exists()
 
     def load_model(self):
+        """
+            loads the cached model if it exists or download it from wandb 
+        """
         if not self.model_path.exists():
             logger.warn("the model not found , Downloading from W&B .")
             self.download_model()
