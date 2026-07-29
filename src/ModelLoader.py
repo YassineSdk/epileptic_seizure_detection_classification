@@ -30,7 +30,7 @@ class ModelLoader:
         self.model_path.parent.mkdir(
             exist_ok=True
         )
-        wb.login(key=os.getenv("W&B_KEY"))
+        wb.login(key=os.getenv("WB_KEY"))
         api=wb.Api()
         artifact = api.artifact(
             self.artfact_name,
