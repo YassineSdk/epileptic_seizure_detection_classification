@@ -30,7 +30,20 @@ class ModelLoader:
         self.model_path.parent.mkdir(
             exist_ok=True
         )
-        wb.login(key=os.getenv("WB_KEY"))
+
+        key=os.getenv("WANDB_API_KEY")
+        if not key :
+            raise RuntimeError(
+                "the WandB key is missing "
+            )
+
+        if key is None :
+                        raise RuntimeError(
+                "the WandB key is missing "
+            )
+        
+
+        wb.login(key=key)
         api=wb.Api()
         artifact = api.artifact(
             self.artfact_name,
