@@ -4,7 +4,7 @@ import joblib
 import pandas as pd
 
 
-
+CLASS_NAMES=["healthy","generalize","focal","event"]
 def predict(model ,data:pd.DataFrame)-> str :
     """
     """
@@ -20,7 +20,7 @@ def predict(model ,data:pd.DataFrame)-> str :
     #single prediction
     
     if len(pred) == 1 :
-        return int(CLASS_NAMES[pred[0]])
+        return CLASS_NAMES[pred[0]]
     
     else :
         CLASS_NAMES = np.array(CLASS_NAMES)
